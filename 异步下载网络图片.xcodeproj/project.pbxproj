@@ -38,6 +38,7 @@
 		E23BD4321D8E42FA000241BD /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E23BD4181D8E42FA000241BD /* NSObject+YYModel.m */; };
 		E23BD4331D8E42FA000241BD /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E23BD41A1D8E42FA000241BD /* YYClassInfo.m */; };
 		E23BD4361D8E457F000241BD /* CZModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E23BD4351D8E457F000241BD /* CZModel.m */; };
+		E23BD4391D8E734C000241BD /* CZCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E23BD4381D8E734C000241BD /* CZCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -104,6 +105,8 @@
 		E23BD41B1D8E42FA000241BD /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
 		E23BD4341D8E457F000241BD /* CZModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZModel.h; sourceTree = "<group>"; };
 		E23BD4351D8E457F000241BD /* CZModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZModel.m; sourceTree = "<group>"; };
+		E23BD4371D8E734C000241BD /* CZCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZCell.h; sourceTree = "<group>"; };
+		E23BD4381D8E734C000241BD /* CZCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +146,8 @@
 				E23BD3D51D8E42E0000241BD /* ViewController.m */,
 				E23BD4341D8E457F000241BD /* CZModel.h */,
 				E23BD4351D8E457F000241BD /* CZModel.m */,
+				E23BD4371D8E734C000241BD /* CZCell.h */,
+				E23BD4381D8E734C000241BD /* CZCell.m */,
 				E23BD3D71D8E42E0000241BD /* Main.storyboard */,
 				E23BD3DA1D8E42E0000241BD /* Assets.xcassets */,
 				E23BD3DC1D8E42E0000241BD /* LaunchScreen.storyboard */,
@@ -336,6 +341,7 @@
 				E23BD41F1D8E42FA000241BD /* AFURLRequestSerialization.m in Sources */,
 				E23BD4201D8E42FA000241BD /* AFURLResponseSerialization.m in Sources */,
 				E23BD41C1D8E42FA000241BD /* AFHTTPSessionManager.m in Sources */,
+				E23BD4391D8E734C000241BD /* CZCell.m in Sources */,
 				E23BD42C1D8E42FA000241BD /* UIImage+GIF.m in Sources */,
 				E23BD4231D8E42FA000241BD /* NSData+ImageContentType.m in Sources */,
 				E23BD4331D8E42FA000241BD /* YYClassInfo.m in Sources */,
@@ -490,6 +496,7 @@
 				E23BD3E41D8E42E0000241BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
